@@ -44,6 +44,14 @@ public class Homework2 : MonoBehaviour
         { 
              transform.position= transform.position+ new Vector3(1,0,0)* moveSpeed* Time.deltaTime; 
         }
+     bool JumpPressed = Input.GetKeyDown(KeyCode.Space);
+     if (JumpPressed)
+     {
+         Rigidbody MyRigidbody =GetComponent<Rigidbody>();
+         MyRigidbody.AddForce( new Vector3 (0,5,0), ForceMode.Impulse);
+     }
+        
+      
        //Vector3 forwardVectorExample = new Vector3 (0, 0, 1);
       //  movementDirection = movementDirection + Vector3.forward;
         //movementDirection = movementDirection + Vector3.right; 
