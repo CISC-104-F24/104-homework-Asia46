@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Homework2 : MonoBehaviour
 { 
-    public float moveSpeed;
+    public float originalSpeed;
+    public float sprintSpeed= 10f;  
     bool is_W_pressed;  
     bool is_A_pressed;
     bool is_S_pressed; 
     bool is_D_pressed; 
+    bool is_sprint_pressed;
+   
     // or is it public float moveSpeed; 
 
     // Start is called before the first frame update
@@ -24,26 +27,40 @@ public class Homework2 : MonoBehaviour
       is_A_pressed= Input.GetKey(KeyCode.A);
       is_S_pressed= Input.GetKey(KeyCode.S);
       is_D_pressed= Input.GetKey(KeyCode.D);
+     
+     is_sprint_pressed= Input.GetKeyDown(KeyCode.LeftShift);
       
+      if (is_sprint_pressed)
+      {
+        transform.position= transform.position+ new Vector3(0,0,1) * (originalSpeed+sprintSpeed)* Time.deltaTime;
+      }
       if(is_W_pressed)
         { 
-             transform.position= transform.position+ new Vector3(0,0,1)* moveSpeed* Time.deltaTime; 
+             transform.position= transform.position+ new Vector3(0,0,1)* originalSpeed* Time.deltaTime; 
         }
+      
+      if (is_sprint_pressed && is_W_pressed)
+      {
+        transform.position= transform.position* originalSpeed*sprintSpeed* Time.deltaTime;
+        }
+
+    
       
       if(is_A_pressed)
         { 
-             transform.position= transform.position+ new Vector3(-1,0,0)* moveSpeed* Time.deltaTime; 
+             transform.position= transform.position+ new Vector3(-1,0,0)* originalSpeed* Time.deltaTime; 
         }
       
       if(is_S_pressed)
         { 
-             transform.position= transform.position+ new Vector3(0,0,-1)* moveSpeed* Time.deltaTime; 
+             transform.position= transform.position+ new Vector3(0,0,-1)* originalSpeed* Time.deltaTime; 
         }
       
       if(is_D_pressed)
         { 
-             transform.position= transform.position+ new Vector3(1,0,0)* moveSpeed* Time.deltaTime; 
+             transform.position= transform.position+ new Vector3(1,0,0)* originalSpeed* Time.deltaTime; 
         }
+     
      bool JumpPressed = Input.GetKeyDown(KeyCode.Space);
      if (JumpPressed)
      {
