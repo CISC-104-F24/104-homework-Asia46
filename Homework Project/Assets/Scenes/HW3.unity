@@ -479,26 +479,15 @@ GameObject:
   - component: {fileID: 413692755}
   - component: {fileID: 413692754}
   - component: {fileID: 413692753}
-  - component: {fileID: 413692752}
+  - component: {fileID: 413692758}
+  - component: {fileID: 413692759}
   m_Layer: 0
   m_Name: TriggerCollider1 (4)
-  m_TagString: Enemy4
+  m_TagString: Enemy9
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &413692752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413692751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69037a1ba65114437a207d854ad9031e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &413692753
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -521,7 +510,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -612,6 +601,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &413692758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413692751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0556dc055539b46e79d7b5692dca31ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  bounceForce: 10
+--- !u!114 &413692759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413692751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63de3bf0d151453c886b1063b699018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &553693097
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,26 +640,14 @@ GameObject:
   - component: {fileID: 553693101}
   - component: {fileID: 553693100}
   - component: {fileID: 553693099}
-  - component: {fileID: 553693098}
+  - component: {fileID: 553693104}
   m_Layer: 0
   m_Name: TriggerCollider1
-  m_TagString: Enemy4
+  m_TagString: Enemy5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &553693098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 553693097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69037a1ba65114437a207d854ad9031e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &553693099
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -667,7 +670,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -758,6 +761,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553693104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553693097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0556dc055539b46e79d7b5692dca31ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  bounceForce: 10
 --- !u!1 &892986928
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,26 +998,14 @@ GameObject:
   - component: {fileID: 1013839585}
   - component: {fileID: 1013839584}
   - component: {fileID: 1013839583}
-  - component: {fileID: 1013839582}
+  - component: {fileID: 1013839588}
   m_Layer: 0
   m_Name: TriggerCollider1 (2)
-  m_TagString: Enemy4
+  m_TagString: Enemy7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1013839582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013839581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69037a1ba65114437a207d854ad9031e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1013839583
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1023,7 +1028,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1114,6 +1119,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013839588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013839581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0556dc055539b46e79d7b5692dca31ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  bounceForce: 10
 --- !u!1 &1147332680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,26 +1583,14 @@ GameObject:
   - component: {fileID: 1532157007}
   - component: {fileID: 1532157006}
   - component: {fileID: 1532157005}
-  - component: {fileID: 1532157004}
+  - component: {fileID: 1532157010}
   m_Layer: 0
   m_Name: TriggerCollider1 (3)
-  m_TagString: Enemy4
+  m_TagString: Enemy8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1532157004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532157003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69037a1ba65114437a207d854ad9031e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1532157005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1606,7 +1613,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1697,6 +1704,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1532157010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532157003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0556dc055539b46e79d7b5692dca31ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  bounceForce: 10
 --- !u!1 &1569759656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,7 +1894,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 10
+  m_Constraints: 90
   m_CollisionDetection: 0
 --- !u!114 &1597151261
 MonoBehaviour:
@@ -1899,6 +1920,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6ffb3e47dbe3438fbdccb07947377c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  bounceForce: 10
+--- !u!114 &1597151264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597151259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0556dc055539b46e79d7b5692dca31ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
@@ -2248,26 +2283,14 @@ GameObject:
   - component: {fileID: 2053736868}
   - component: {fileID: 2053736867}
   - component: {fileID: 2053736866}
-  - component: {fileID: 2053736865}
+  - component: {fileID: 2053736871}
   m_Layer: 0
   m_Name: TriggerCollider1 (1)
-  m_TagString: Enemy4
+  m_TagString: Enemy6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2053736865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053736864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69037a1ba65114437a207d854ad9031e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &2053736866
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2290,7 +2313,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2381,6 +2404,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053736871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053736864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0556dc055539b46e79d7b5692dca31ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  bounceForce: 10
 --- !u!1001 &2087077430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2450,6 +2487,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 990672702109478121, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1597151263}
+    - targetCorrespondingSourceObject: {fileID: 990672702109478121, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1597151264}
   m_SourcePrefab: {fileID: 100100000, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
