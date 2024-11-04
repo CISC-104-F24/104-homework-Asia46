@@ -33,10 +33,7 @@ public class TiggerEvents : MonoBehaviour
       
         }
         
-         if (other.gameObject.CompareTag("Player"))
-       {
-         GetComponent<MeshRenderer>().material.color = new Color(1f,0f,0f);
-       }  
+       
 
     }
 

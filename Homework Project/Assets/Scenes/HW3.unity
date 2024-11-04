@@ -2426,11 +2426,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 510123025774478065, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 711519578539714274, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 990672702109478121, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
       propertyPath: m_Name
       value: Dragonborn
       objectReference: {fileID: 0}
     - target: {fileID: 990672702109478121, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825539913795079416, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170184792250432830, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578046132733049593, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -2473,6 +2493,22 @@ PrefabInstance:
     - target: {fileID: 4842605200327179919, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834326520865980983, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206242599729903470, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8302933546586991192, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105190946362078344, guid: ee8bc396d8bc24e75a451cd0b54a81ef, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
